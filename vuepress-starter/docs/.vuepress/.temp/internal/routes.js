@@ -2,10 +2,10 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
-  ["/glossary.html", { loader: () => import(/* webpackChunkName: "glossary.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/glossary.html.js"), meta: {"title":""} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
+  ["/glossary/generic-terms-definition.html", { loader: () => import(/* webpackChunkName: "glossary_generic-terms-definition.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/glossary/generic-terms-definition.html.js"), meta: {"title":""} }],
+  ["/glossary/glossary.html", { loader: () => import(/* webpackChunkName: "glossary_glossary.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/glossary/glossary.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
-  ["/generic-terms-definition.html", { loader: () => import(/* webpackChunkName: "generic-terms-definition.html" */"C:/Users/javierhfernandez/Desktop/GitHub/pub-portfolio-myversion-pleodocs/vuepress-starter/docs/.vuepress/.temp/pages/generic-terms-definition.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

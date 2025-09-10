@@ -1,5 +1,28 @@
-<template><div><h1 id="glossary" tabindex="-1"><a class="header-anchor" href="#glossary"><span>Glossary</span></a></h1>
-<p>This is a normal page, which contains VuePress basics.</p>
+<template><div><h2 id="glossary" tabindex="-1"><a class="header-anchor" href="#glossary"><span>Glossary</span></a></h2>
+<p>Pleo is designed on top of a few essential terms that helps customers to understand the accounting requirements. This core terminology is distributed in the following term categories:</p>
+<table>
+<thead>
+<tr>
+<th>Catergory</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Generic Terms and Definitions</strong></td>
+<td>Explanation of a few generic terms often used in Pleo.</td>
+</tr>
+<tr>
+<td><strong>Expense Types</strong></td>
+<td>Types of expenses recorded by Pleo.</td>
+</tr>
+<tr>
+<td><strong>Export Terms</strong></td>
+<td>Terms used in context of exporting accounting entries from Pleo to an external ERP/Accounting system.</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <h2 id="pages" tabindex="-1"><a class="header-anchor" href="#pages"><span>Pages</span></a></h2>
 <p>You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.</p>
 <p>See <a href="https://vuejs.press/guide/page.html#routing" target="_blank" rel="noopener noreferrer">routing</a> for more details.</p>
